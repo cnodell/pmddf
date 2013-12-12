@@ -1,5 +1,9 @@
 # pmddf
 
-Together with Pandon, Markdown is an awesome tool for creating documents. Once you create the markdown source you can use Pandoc to produce a a document in a variety of formats. One thing that is missing, however, ist the ability to easily format PDFs produced by Pandoc.
+## Overview
 
-Pandoc is completely capable of formating your document in limitless ways but changing things from the default requires familiarity with both the command line and LaTeX. This tool provides a GUI that makes it easy to make some basic formatting changes without such knowldge.
+pmddf is a GUI tool that lets you to easily change some basic formatting options when generate a PDF document from a markdown file.
+
+## Requirements
+
+pmddf is a simple python (2.7) script using the included tkinter libraries. In addition to python and tkinter, pmddf requires that Pandoc (tested with 1.12.1) is installed and that the Pandoc executable is in your path.
